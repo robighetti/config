@@ -1,0 +1,117 @@
+{
+  "editor.inlineSuggest.enabled": true,
+  "workbench.colorTheme": "Firefox Dark",
+  "workbench.iconTheme": "vscode-icons",
+  "workbench.productIconTheme": "fluent-icons",
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.editor.labelFormat": "short",
+  "terminal.integrated.fontSize": 14,
+  "editor.tabSize": 2,
+  "editor.fontSize": 16,
+  "editor.lineHeight": 22,
+  "editor.fontFamily": "Cascadia Code PL",
+  "editor.fontLigatures": true,
+  "explorer.compactFolders": false,
+  "editor.renderLineHighlight": "gutter",
+  "editor.rulers": [80,120],
+  "extensions.ignoreRecommendations": true,
+  "typescript.tsserver.log": "off",
+  "typescript.suggest.autoImports": true,
+  "javascript.suggest.autoImports": true,
+  "breadcrumbs.enabled": true,
+  "[prisma]": {
+    "editor.formatOnSave": true
+  },
+  "files.associations": {
+    ".sequelizerc": "javascript",
+    ".stylelintrc": "json"
+  },
+  "material-icon-theme.folders.associations": {
+    "infra": "Middleware",
+    "app": "App",
+    "domain": "Interface",
+    "routes": "Routes",
+    "broker": "Shader",
+    "infrastructure": "Middleware",
+    "exception": "Error",
+    "entities": "Class",
+    "schemas": "Class",
+    "typeorm": "Database",
+    "seeds": "Generator",
+    "repository": "Mappings",
+    "repositories": "Mappings",
+    "http": "Container",
+    "migrations": "Tools",
+    "modules": "Components",
+    "implementations": "Core",
+    "dtos": "Typescript",
+    "fakes": "Mock",
+    "transformer": "other",
+    "base": "tasks",
+    "domains": "controller",
+    "bo": "controller",
+    "logger": "log",
+    "src": "Src",
+    "value-objects": "Base",
+    "Aside": "Stack",
+    "Content": "Meta",
+    "MainHeader": "Batch",
+    "handlers": "Archive",
+    "cartridges": "Queue",
+    "use-cases": "Functions"
+  },
+  "material-icon-theme.files.associations": {
+    "ormconfig.json": "database",
+    "tsconfig": "tune"
+  },
+  "material-icon-theme.activeIconPack": "nest",
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "vsicons.dontShowNewVersionMessage": true,
+  "editor.accessibilitySupport": "off",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "git.openRepositoryInParentFolders": "never",
+  "application.shellEnvironmentResolutionTimeout": 20,
+  "symbols.hidesExplorerArrows": false,
+  "symbols.files.associations": {
+    "*.module.ts": "nest",
+    "*.guard.ts": "typescript",
+    "*.spec.ts": "ts-test",
+    "*.e2e-spec.ts": "ts-test",
+    "vitest.config.e2e.ts": "vite",
+    ".env.example": "gear"
+  },  
+  "explorer.fileNesting.patterns": {
+    "package.json": ".eslint*, prettier*, tsconfig*, vite*, pnpm-lock*, bun.lockb, nest*",
+    "tailwind.config.js": "tailwind.config*, postcss.config*",
+    ".env.local": ".env*",
+    ".env": ".env*"
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "graphql"
+  ],
+  "tailwindCSS.experimental.classRegex": [
+    ["tv\\(([^)]*)\\)", "[\"'`]([^\"'`]*).*?[\"'`]"]
+  ],
+  "terminal.integrated.env.osx": {},  
+  "javascript.updateImportsOnFileMove.enabled": "never",
+  "[html]": {
+    "editor.defaultFormatter": "HookyQR.beautify"
+  },  
+  "[advpl]": {
+    "files.encoding": "windows1252",
+    "files.insertFinalNewline": true,
+    "files.eol": "\r\n",
+    "editor.formatOnSaveMode": "file",
+    "editor.semanticHighlighting.enabled": true
+  },    
+  "security.workspace.trust.untrustedFiles": "open",  
+  "terminal.integrated.fontFamily": "monospace",
+  "editor.fontWeight": "normal"
+}
